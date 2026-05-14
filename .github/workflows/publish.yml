@@ -1,0 +1,55 @@
+name: Publish
+
+# Publishes the npm package to GitHub Packages.
+#
+# Trusts the committed package.json version — proto-publish.yml in
+# altessa-s/proto bumps it via sync-proto.sh (tag → exact release;
+# branch → pre-release <next-patch>-<branch>.<sha7>).
+
+on:
+  repository_dispatch:
+    types: [publish-npm]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://npm.pkg.github.com/"
+          scope: "@altessa-s"
+
+      - name: Install
+        run: npm install --no-audit --no-fund
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish to GitHub Packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # Pre-release versions get a branch-name dist-tag (main, develop,
+        # etc.); releases use the default `latest`.
+        run: |
+          version=$(node -p "require('./package.json').version")
+          if [[ "${version}" != *-* ]]; then
+            npm publish
+            exit 0
+          fi
+          suffix="${version#*-}"
+          branch="${suffix%%.*}"
+          if [[ -z "${branch}" ]]; then
+            branch="snapshot"
+          fi
+          npm publish --tag "${branch}"

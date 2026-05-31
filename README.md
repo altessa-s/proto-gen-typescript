@@ -33,8 +33,9 @@ Peer runtime dependencies:
 
 | Proto package | Module path |
 |---------------|-------------|
-| `io.altessa.badrequest.v1` | `@altessa-s/proto-gen-typescript/badrequest/v1/badrequest_pb.js` |
-| `io.altessa.serviceinfo.v1` | `@altessa-s/proto-gen-typescript/serviceinfo/v1/serviceinfo_pb.js` |
+| `io.altessa.badrequest.v1` | `@altessa-s/proto-gen-typescript/services/badrequest/v1/badrequest_pb.js` |
+| `io.altessa.serviceinfo.v1` | `@altessa-s/proto-gen-typescript/services/serviceinfo/v1/serviceinfo_pb.js` |
+| `io.altessa.type.v1` | `@altessa-s/proto-gen-typescript/type/v1/*_pb.js` (one file per type) |
 
 ## License
 

@@ -20,6 +20,8 @@
     "src/"
   ],
   "scripts": {
+    "generate": "node scripts/gen-index.mjs",
+    "prebuild": "npm run generate",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },

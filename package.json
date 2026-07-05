@@ -1,6 +1,6 @@
 {
   "name": "@altessa-s/proto-gen-typescript",
-  "version": "0.2.1-main.ea8fce1",
+  "version": "0.3.0",
   "description": "Generated TypeScript bindings for the altessa-s/proto schemas.",
   "type": "module",
   "main": "dist/index.js",

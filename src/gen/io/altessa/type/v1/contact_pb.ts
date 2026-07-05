@@ -17,7 +17,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file io/altessa/type/v1/contact.proto.
  */
 export const file_io_altessa_type_v1_contact: GenFile = /*@__PURE__*/
-  fileDesc("CiBpby9hbHRlc3NhL3R5cGUvdjEvY29udGFjdC5wcm90bxISaW8uYWx0ZXNzYS50eXBlLnYxIngKB0NvbnRhY3QSDwoCaWQYASABKAlCA+BBCBIPCgVlbWFpbBgCIAEoCUgAEikKBXBob25lGAMgASgLMhguZ29vZ2xlLnR5cGUuUGhvbmVOdW1iZXJIABIXCg1zb2NpYWxfaGFuZGxlGAQgASgJSABCBwoFdmFsdWVCUwoSaW8uYWx0ZXNzYS50eXBlLnYxUAFaO2dpdGh1Yi5jb20vYWx0ZXNzYS1zL3Byb3RvLWdlbi1nby9pby9hbHRlc3NhL3R5cGUvdjE7dHlwZXYxYgZwcm90bzM", [file_google_api_field_behavior, file_google_type_phone_number]);
+  fileDesc("CiBpby9hbHRlc3NhL3R5cGUvdjEvY29udGFjdC5wcm90bxISaW8uYWx0ZXNzYS50eXBlLnYxIngKB0NvbnRhY3QSDwoCaWQYASABKAlCA+BBCBIPCgVlbWFpbBgCIAEoCUgAEikKBXBob25lGAMgASgLMhguZ29vZ2xlLnR5cGUuUGhvbmVOdW1iZXJIABIXCg1zb2NpYWxfaGFuZGxlGAQgASgJSABCBwoFdmFsdWVCYQoSaW8uYWx0ZXNzYS50eXBlLnYxQgxDb250YWN0UHJvdG9QAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw", [file_google_api_field_behavior, file_google_type_phone_number]);
 
 /**
  * A single contact endpoint (phone, email, social handle, …). The variant

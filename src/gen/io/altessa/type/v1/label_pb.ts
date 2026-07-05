@@ -17,7 +17,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file io/altessa/type/v1/label.proto.
  */
 export const file_io_altessa_type_v1_label: GenFile = /*@__PURE__*/
-  fileDesc("Ch5pby9hbHRlc3NhL3R5cGUvdjEvbGFiZWwucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJPCgVMYWJlbBIPCgJpZBgBIAEoCUID4EEIEhIKBXZhbHVlGAIgASgJQgPgQQISIQoFY29sb3IYAyABKAsyEi5nb29nbGUudHlwZS5Db2xvckJTChJpby5hbHRlc3NhLnR5cGUudjFQAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw", [file_google_api_field_behavior, file_google_type_color]);
+  fileDesc("Ch5pby9hbHRlc3NhL3R5cGUvdjEvbGFiZWwucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJPCgVMYWJlbBIPCgJpZBgBIAEoCUID4EEIEhIKBXZhbHVlGAIgASgJQgPgQQISIQoFY29sb3IYAyABKAsyEi5nb29nbGUudHlwZS5Db2xvckJfChJpby5hbHRlc3NhLnR5cGUudjFCCkxhYmVsUHJvdG9QAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw", [file_google_api_field_behavior, file_google_type_color]);
 
 /**
  * A short text tag with an optional display color. Suitable for chips,

@@ -13,7 +13,7 @@ import { enumDesc, fileDesc } from "@bufbuild/protobuf/codegenv2";
  * Describes the file io/altessa/type/v1/gender.proto.
  */
 export const file_io_altessa_type_v1_gender: GenFile = /*@__PURE__*/
-  fileDesc("Ch9pby9hbHRlc3NhL3R5cGUvdjEvZ2VuZGVyLnByb3RvEhJpby5hbHRlc3NhLnR5cGUudjEqRAoGR2VuZGVyEhYKEkdFTkRFUl9VTlNQRUNJRklFRBAAEg8KC0dFTkRFUl9NQUxFEAESEQoNR0VOREVSX0ZFTUFMRRACQlMKEmlvLmFsdGVzc2EudHlwZS52MVABWjtnaXRodWIuY29tL2FsdGVzc2Etcy9wcm90by1nZW4tZ28vaW8vYWx0ZXNzYS90eXBlL3YxO3R5cGV2MWIGcHJvdG8z");
+  fileDesc("Ch9pby9hbHRlc3NhL3R5cGUvdjEvZ2VuZGVyLnByb3RvEhJpby5hbHRlc3NhLnR5cGUudjEqRAoGR2VuZGVyEhYKEkdFTkRFUl9VTlNQRUNJRklFRBAAEg8KC0dFTkRFUl9NQUxFEAESEQoNR0VOREVSX0ZFTUFMRRACQmAKEmlvLmFsdGVzc2EudHlwZS52MUILR2VuZGVyUHJvdG9QAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw");
 
 /**
  * Biological sex of a person. Intentionally minimal — extend the schema in

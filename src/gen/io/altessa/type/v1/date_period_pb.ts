@@ -17,7 +17,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file io/altessa/type/v1/date_period.proto.
  */
 export const file_io_altessa_type_v1_date_period: GenFile = /*@__PURE__*/
-  fileDesc("CiRpby9hbHRlc3NhL3R5cGUvdjEvZGF0ZV9wZXJpb2QucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJiCgpEYXRlUGVyaW9kEioKCnN0YXJ0X2RhdGUYASABKAsyES5nb29nbGUudHlwZS5EYXRlQgPgQQISKAoIZW5kX2RhdGUYAiABKAsyES5nb29nbGUudHlwZS5EYXRlQgPgQQJCUwoSaW8uYWx0ZXNzYS50eXBlLnYxUAFaO2dpdGh1Yi5jb20vYWx0ZXNzYS1zL3Byb3RvLWdlbi1nby9pby9hbHRlc3NhL3R5cGUvdjE7dHlwZXYxYgZwcm90bzM", [file_google_api_field_behavior, file_google_type_date]);
+  fileDesc("CiRpby9hbHRlc3NhL3R5cGUvdjEvZGF0ZV9wZXJpb2QucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJiCgpEYXRlUGVyaW9kEioKCnN0YXJ0X2RhdGUYASABKAsyES5nb29nbGUudHlwZS5EYXRlQgPgQQISKAoIZW5kX2RhdGUYAiABKAsyES5nb29nbGUudHlwZS5EYXRlQgPgQQJCZAoSaW8uYWx0ZXNzYS50eXBlLnYxQg9EYXRlUGVyaW9kUHJvdG9QAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw", [file_google_api_field_behavior, file_google_type_date]);
 
 /**
  * A calendar-date range, inclusive on both ends. Use this for ranges that

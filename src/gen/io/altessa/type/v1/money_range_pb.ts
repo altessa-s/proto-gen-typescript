@@ -17,7 +17,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file io/altessa/type/v1/money_range.proto.
  */
 export const file_io_altessa_type_v1_money_range: GenFile = /*@__PURE__*/
-  fileDesc("CiRpby9hbHRlc3NhL3R5cGUvdjEvbW9uZXlfcmFuZ2UucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJYCgpNb25leVJhbmdlEiQKA21pbhgBIAEoCzISLmdvb2dsZS50eXBlLk1vbmV5QgPgQQISJAoDbWF4GAIgASgLMhIuZ29vZ2xlLnR5cGUuTW9uZXlCA+BBAkJTChJpby5hbHRlc3NhLnR5cGUudjFQAVo7Z2l0aHViLmNvbS9hbHRlc3NhLXMvcHJvdG8tZ2VuLWdvL2lvL2FsdGVzc2EvdHlwZS92MTt0eXBldjFiBnByb3RvMw", [file_google_api_field_behavior, file_google_type_money]);
+  fileDesc("CiRpby9hbHRlc3NhL3R5cGUvdjEvbW9uZXlfcmFuZ2UucHJvdG8SEmlvLmFsdGVzc2EudHlwZS52MSJYCgpNb25leVJhbmdlEiQKA21pbhgBIAEoCzISLmdvb2dsZS50eXBlLk1vbmV5QgPgQQISJAoDbWF4GAIgASgLMhIuZ29vZ2xlLnR5cGUuTW9uZXlCA+BBAkJkChJpby5hbHRlc3NhLnR5cGUudjFCD01vbmV5UmFuZ2VQcm90b1ABWjtnaXRodWIuY29tL2FsdGVzc2Etcy9wcm90by1nZW4tZ28vaW8vYWx0ZXNzYS90eXBlL3YxO3R5cGV2MWIGcHJvdG8z", [file_google_api_field_behavior, file_google_type_money]);
 
 /**
  * Inclusive range between two monetary amounts. Both bounds MUST share
